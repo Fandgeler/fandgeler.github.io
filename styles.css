@@ -1,0 +1,66 @@
+body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.easy {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.custombutton {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the container element behave like a button */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.custombutton:hover {
+    background-color: #005e28;
+    
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h3 {
+    color: green;
+    text-align: left;
+
+
+p1 {
+    font-size: 20px;
+    color: blue;
+}
+
+p2 {
+    font-size: 30px;
+   color: red;
