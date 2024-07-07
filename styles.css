@@ -40,10 +40,12 @@ body {
     cursor: pointer; /* Pointer/hand icon */
     border-radius: 12px; /* Rounded corners */
     transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .custombutton:hover {
     background-color: #005e28;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     
 
 h1 {
